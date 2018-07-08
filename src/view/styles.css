@@ -1,0 +1,81 @@
+body {
+    font-family: Roboto, Sans-serif;
+  }
+  
+  .tela {
+    display: inline-block;
+  }
+  
+  .palco, .proximo {
+    display: inline-block;
+    outline-style: solid;
+    margin-bottom:-4px;
+  }
+  
+  .informacoes {
+    width: calc(6*20px);
+    padding: 20px;
+    padding-top: 0px;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+  }
+  
+  .informacoes h2 {
+    font-size:18px;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+  
+  .informacoes p {
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .proximo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .proximo::before {
+    content: 'Next';
+    position: absolute;
+    font-size: 12px;
+    margin-top: -20px;
+  }
+  
+  .linha {
+    height:20px;
+  }
+  
+  .pixel {
+    display: inline-block;
+    background-color: black;
+    padding: 3px;
+  }
+  
+  .pixel::after {
+    content:'';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border: 2px solid white;
+  }
+  
+  .palco .pixel, .proximo .pixel {
+    opacity: 0.36
+  }
+  
+  /** quadrado **/
+  /*
+  [
+    /linha [0,0,0,0]
+    /linha [0,1,1,0]
+    /linha [0,1,1,0]
+    /linha [0,0,0,0]
+  ]
+  * #pl1p1, #pl1p2, #pl2p1, #pl2p2
+  */
+  /* #pl1p1, #pl1p2, #pl2p1, #pl2p2{
+    opacity:1
+  } */

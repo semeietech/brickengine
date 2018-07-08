@@ -1,0 +1,24 @@
+{
+  "name": "brickengine",
+  "version": "1.0.0",
+  "description": "A html5 engine for tetris like games",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semeietech/brickengine.git"
+  },
+  "keywords": [
+    "gameengine",
+    "tetris",
+    "es6"
+  ],
+  "author": "semeie.tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semeietech/brickengine/issues"
+  },
+  "homepage": "https://github.com/semeietech/brickengine#readme"
+}
